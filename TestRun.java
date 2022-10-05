@@ -5,23 +5,19 @@ import java.util.Arrays;
 
 public class TestRun {
     public static void main(String[] args) {
+        Scanner fetch = new Scanner(System.in);
+        System.out.println("enter number1");
+        double number1 = fetch.nextDouble();
+        System.out.println("enter number2");
+        double number2 = fetch.nextDouble();
 
-        Scanner sent = new Scanner(System.in);
-        System.out.println("enter a word");
-        String s = sent.nextLine();
-        System.out.println("enter another word");
-        String f = sent.nextLine();
+        calculator c1 = new calculator(number1,number2);
+        System.out.println(c1.division());
 
-        char t[] = s.toCharArray();
-        char u[] = f.toCharArray();
 
-        Arrays.sort(t);
-        Arrays.sort(u);
+    }
 
-        if(Arrays.equals(t,u)) {
-            System.out.println("true"); } else {
-            System.out.println("false"); }
-    } }
+    }
 
 
 
