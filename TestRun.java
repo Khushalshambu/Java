@@ -44,19 +44,20 @@ public class TestRun {
             e.printStackTrace();
             return;
         }
+        calculator c1 = new calculator(number1,number2);
 
         switch(input){
             case "+":
-                var v = number1 + number2;
+                var v = c1.addition();
                 System.out.println(v);
                 break;
-            case "-": var v2 = number1 - number2;
+            case "-": var v2 = c1.subtraction();
                 System.out.println(v2);
                 break;
-            case "*": var v3 = number1*number2;
+            case "*": var v3 = c1.multiplication();
                 System.out.println(v3);
                 break;
-            case "/": var v4 = number1/number2;
+            case "/": var v4 = c1.division();
                 System.out.println(v4);
                 break;
                 default:

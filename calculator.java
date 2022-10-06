@@ -12,5 +12,17 @@ public class calculator {
         double result = number1/number2;
         return result;
     }
+    public double addition(){
+        double result = number1+number2;
+        return result;
+    }
+    public double multiplication(){
+        double result = number1*number2;
+        return result;
+    }
+    public double subtraction(){
+        double result = number1-number2;
+        return result;
+    }
     }
 
