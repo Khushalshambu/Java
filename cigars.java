@@ -11,8 +11,11 @@ public class cigars {
             if (cigars >= 40 && cigars <= 60) {
                 System.out.println(isWeekend = true);
             }
+        }else if(isWeekend == true)
+        { if(cigars>=40)
+        {return isWeekend = true;}
         }
 
-        return isWeekend;
+        return isWeekend = false;
     }
 }
