@@ -5,8 +5,13 @@ import java.util.*;
 
 public class TestRun {
     public static void main(String[] args) {
-        var c1 = new cigars();
-        System.out.println(c1.cigarParty(102,true));
+        String str = "hi";
+        String s1 = "";
+        for (int i = 0;i<str.length();i++){
+        char c = str.charAt(i);
+        s1 = s1 + c + c;
+        }
+        System.out.println(s1);
     }
 }
 
