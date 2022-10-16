@@ -5,8 +5,8 @@ import java.util.*;
 
 public class TestRun {
     public static void main(String[] args) {
-        var cd1 = new catanddog();
-        System.out.println(cd1.catDog("catxxxdogxxxdog"));
+        var cc1 = new codeCount();
+        System.out.println(cc1.countCode("cosexxxxsecode"));
     }}
 
 
