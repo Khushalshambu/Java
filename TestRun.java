@@ -5,8 +5,8 @@ import java.util.*;
 
 public class TestRun {
     public static void main(String[] args) {
-        var cc1 = new codeCount();
-        System.out.println(cc1.countCode("cosexxxxsecode"));
+        var ending = new endingstring();
+        System.out.println(ending.endOther("helloabc","abc"));
     }}
 
 
